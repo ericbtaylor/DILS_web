@@ -1,4 +1,4 @@
-#!/shared/mfs/data/software/miniconda/envs/pypy-2.7-5.10.0/bin/pypy
+#!/usr/bin/env pypy
 # #!/usr/local/bin/pypy
 # #!/usr/local/bin/pypy
 

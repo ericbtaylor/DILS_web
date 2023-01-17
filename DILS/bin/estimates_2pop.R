@@ -1,4 +1,4 @@
-#!/shared/software/miniconda/envs/r-3.5.1/bin/Rscript
+#!/usr/bin/env Rscript
 # #!/usr/bin/Rscript
 # #!/shared/home/croux/.conda/envs/R_env/bin/Rscript
 

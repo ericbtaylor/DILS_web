@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env pypy
 # #!/home/roux/python/Python-2.7.14/python
 # -*- coding: utf-8 -*-
 

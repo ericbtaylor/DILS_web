@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 ## launch DILS for 2 populations
 ## the provided argument is for --configfile, expecting the yaml file
 module load pypy/2.7-5.10.0

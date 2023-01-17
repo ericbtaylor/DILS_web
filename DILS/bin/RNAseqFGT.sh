@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 params_nameA=$1
 params_nameB=$2
 input_infos=$3
