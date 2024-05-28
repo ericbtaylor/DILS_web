@@ -217,7 +217,7 @@ experiment. Copy it in the same folder as `$XDIR`, with our yaml file.
 cp path/to/my/fasta "$XDIR/DILS_pop_samples_fa"
 ```
 
-### 3. We are not ready to run the experiment
+### 3. Start the experiment
 
 Inside "$XDIR" run the following:
 
@@ -285,7 +285,7 @@ The folder `trial` matches the basename of your `.yaml` file.
 
 ### 4. Wait for snakemake to complete
 
-Eventually snakemake will finish all the jobs. 
+Eventually snakemake will finish all the jobs. (On mank03/04 it takes a few hours).
 
 A copy of all the logs is kept in `$XDIR/<yaml>.log`. You should also
 have a folder called `trial` (based on what your yaml prefix is),
