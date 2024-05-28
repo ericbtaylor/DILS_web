@@ -64,9 +64,9 @@ def randomBeta(posterior, nMultilocus):
 
 def produceBarriers(nLoci, nBarriers):
 	# produces a vector of 0 (non barrier) or 1 (barrier), of size equal to the number of loci
- 	barriers = [0]*nBarriers + [1]*(nLoci-nBarriers)
+	barriers = [0]*nBarriers + [1]*(nLoci-nBarriers)
 	shuffle(barriers)
- 	return(barriers)
+	return(barriers)
 
 
 help = "\t\033[1;31;40mTakes one model specifier, a number of multilocus simulations and a config.yaml file containing prior boundaries as arguments:\033[0m\n\t\t"

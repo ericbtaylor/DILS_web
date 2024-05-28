@@ -83,7 +83,7 @@ if mscommand == "":
 	sys.exit()
 
 #tmp = "mkdir {0}/{1}; ".format(path, sub_dir_sim)
-tmp = "mkdir {0}/{1}/{2}_{3}; ".format(path, sub_dir_sim, sub_dir_model, iteration)
+tmp = "mkdir -p {0}/{1}/{2}_{3}; ".format(path, sub_dir_sim, sub_dir_model, iteration)
 tmp += "cp {0}/bpfile {0}/{1}/{2}_{3}/; ".format(path, sub_dir_sim, sub_dir_model, iteration)
 tmp += "cd {0}/{1}/{2}_{3}; ".format(path, sub_dir_sim, sub_dir_model, iteration)
 

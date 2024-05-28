@@ -218,7 +218,7 @@ rule RNAseqFGT:
 	threads: 1
 	shell:	
 		"""
-		sh {binpath}/RNAseqFGT.sh {params.nameA} {params.nameB} {input.infos} {input.fasta} {input.nLoci} {output.tmp} {output.results} {binpath} || true
+		{binpath}/RNAseqFGT.sh {params.nameA} {params.nameB} {input.infos} {input.fasta} {input.nLoci} {output.tmp} {output.results} {binpath} || true
 		"""
 
 
