@@ -174,7 +174,7 @@ cd "$XDIR
 Example (file trial.yaml):
 
 ```
-mail_address: geraldes@zoology.ubc.ca
+mail_address: myemail@example.org
 infile: /app/DILS_pop_samples_fa
 region: noncoding
 nspecies: 2
