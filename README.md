@@ -379,6 +379,10 @@ Upload the archive produced by DILS in a **tar.gz format** (doesn't need to be e
 
 Then you can explore the observed data and the results of the inferences.  
 
+NOTE by EBT: For some reason, the tar archive file "config.yaml" contains a second reference to the input data file at the bottom of the
+config.yaml file which the DILS server does not like when uploading the tar.gz esults' file. Just edit that config.yaml file to remove the last line
+with the reference to the input file and all works fine.
+
 # 5 - Help and support  
 For problems of installation, use or interpretation, do not hesitate to post a message on the following group:  
 https://groups.google.com/forum/#!forum/dils---demographic-inferences-with-linked-selection 
